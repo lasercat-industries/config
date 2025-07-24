@@ -31,4 +31,4 @@ jobs:
         if: steps.version.outputs.changed == 'true'
         run: npm publish
         env:
-          NODE_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,6 +1,6 @@
 {
   "name": "@lasercat/config",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Shared configations for our projects",
   "author": "Lasercat",
   "license": "MIT",
