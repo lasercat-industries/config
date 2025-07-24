@@ -1,16 +1,17 @@
 {
   "name": "@lasercat/config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shared configations for our projects",
   "author": "Lasercat",
   "license": "MIT",
   "type": "module",
   "files": [
     "eslint.config.js",
-    "tsconfig.json",
-    "tsconfig.build.json",
+    "npmignore-template",
     ".prettierrc.json",
-    "npmignore-template"
+    ".prettierignore",
+    "tsconfig.json",
+    "tsconfig.build.json"
   ],
   "keywords": [
     "config",
