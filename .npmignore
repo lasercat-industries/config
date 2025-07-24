@@ -1,0 +1,46 @@
+# Git files
+.git
+.gitignore
+
+# Development files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+coverage/
+.bun/
+
+# Test files
+*.test.js
+*.spec.js
+__tests__/
+
+# Documentation source files (keep README.md)
+docs/
+CLAUDE.md
+memory-bank/
+specs/
+examples/
+
+# Lock files (users should manage their own)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
