@@ -43,10 +43,10 @@
     "tsBuildInfoFile": "node_modules/.cache/tsconfig.tsbuildinfo",
 
     // Path resolution
-    "baseUrl": ".",
-    "rootDir": ".",
+    "baseUrl": "${configDir}",
+    "rootDir": "${configDir}",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["${configDir}/src/*"]
     },
 
     // DX improvements
@@ -59,6 +59,6 @@
 
     "types": ["node", "bun"]
   },
-  "include": ["src", "scripts/**/*.ts", "tests", "vite.config.ts", "vitest.config.ts", "**/*.d.ts"],
-  "exclude": ["node_modules", "coverage", "**/dist/**", "**/build/**"]
+  "include": ["${configDir}/src", "${configDir}/scripts/**/*.ts", "${configDir}/tests", "${configDir}/vite.config.ts", "${configDir}/vitest.config.ts", "${configDir}/**/*.d.ts"],
+  "exclude": ["${configDir}/node_modules", "${configDir}/coverage", "${configDir}/**/dist/**", "${configDir}/**/build/**"]
 }
