@@ -15,6 +15,7 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import unicorn from 'eslint-plugin-unicorn';
 import unusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
+import testingLibrary from 'eslint-plugin-testing-library';
 
 
 const commonFiles = '**/*.{js,jsx,cjs,mjs,ts,tsx}';
